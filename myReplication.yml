@@ -12,7 +12,7 @@ spec:
         app: mynginxpods
     spec:
       containers:
-        - name: myContainer
+        - name: mycontainer
           image: nginx
           ports:
             - containerPort: 80
