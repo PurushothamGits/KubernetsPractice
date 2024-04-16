@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mynginx-svc
   labels:
-    app: mynginxpods
+    app: myjavaapp
     version: 2.6.1
 spec:
   type: NodePort
@@ -12,5 +12,5 @@ spec:
     nodePort: 30001
     protocol: TCP
   selector:
-    app: mynginxpods
+    app: myjavaapp
     version: 2.6.1
